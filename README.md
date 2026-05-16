@@ -60,7 +60,7 @@ Urls.txt          # starter pack URLs (781k lines)
 
 ### Starting Point
 
-I was given a starter pack — `Urls.txt` with 587 companies and sample job urls. My first instinct was to understand what we already had before trying to find more.
+I was given a starter pack — `Urls.txt` with 587 companies and sample job URLs. My first instinct was to understand what we already had before trying to find more.
 
 I parsed Urls.txt and found:
 - **587 unique company subdomains** on `*.avature.net`
@@ -250,10 +250,10 @@ print(f'Truly unique      : {len(unique_wayback)}')
 ```
 
 ### Result
-- Wayback returned **98,526 job URLs**
-- Already in Urls.txt: 9,857
+- Wayback returned **6,420 job URLs**
+- Already in Urls.txt: 2,723
 - Already in sitemaps: 3,533
-- **Brand new: ~4,200 unique jobs**
+- **Brand new: 3,697 unique jobs**
 
 ---
 
@@ -498,7 +498,7 @@ Starter pack had **27,202 unique job IDs** across 781,635 URLs. We discovered **
 
 ## What I Would Do With More Time
 
-1. **RSS feeds** — `/<portal>/SearchJobs/feed/` returns structured XML with job data, no scraping needed
-2. **Custom domain discovery** — companies like `emplois.bnc.ca`, `talent.ecb.europa.eu` use custom domains pointing to Avature. Reverse IP lookup on Avature's IP ranges would find dozens more
-3. **Better location/date extraction** — site-specific selectors for the top 20 companies would dramatically improve coverage
-4. **Playwright parallelism** — distribute across multiple machines for faster scraping of all 49k URLs
+2. **RSS feeds** — `/<portal>/SearchJobs/feed/` returns structured XML with job data, no scraping needed
+3. **Custom domain discovery** — companies like `emplois.bnc.ca`, `talent.ecb.europa.eu` use custom domains pointing to Avature. Reverse IP lookup on Avature's IP ranges would find dozens more
+4. **Better location/date extraction** — site-specific selectors for the top 20 companies would dramatically improve coverage
+5. **Playwright parallelism** — distribute across multiple machines for faster scraping of all 49k URLs
