@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+env/
+venv/
+myenv/
+.env
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.myenv/
+
+
+# Exclude generated output txt files
+all_new_job_urls*.txt
+sitemap_job_urls*.txt
+wayback_*.txt
+new_job_urls*.txt
+new_portals.txt
+new_unique_sites.txt
+debug_page.html
+
+# Playwright
+.playwright/
+
+# VS Code
+.vscode/
+
