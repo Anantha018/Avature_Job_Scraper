@@ -14,6 +14,9 @@ build/
 # Virtual environments
 .myenv/
 
+# Large data files - exclude output/intermediate files
+*.jsonl
+
 
 # Exclude generated output txt files
 all_new_job_urls*.txt
