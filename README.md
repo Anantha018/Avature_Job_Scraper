@@ -60,7 +60,7 @@ Urls.txt          # starter pack URLs (781k lines)
 
 ### Starting Point
 
-I was given a starter pack — `Urls.txt` with 587 companies and sample job URLs, and `companies.txt` with subdomain names. My first instinct was to understand what we already had before trying to find more.
+I was given a starter pack — `Urls.txt` with 587 companies and sample job urls. My first instinct was to understand what we already had before trying to find more.
 
 I parsed Urls.txt and found:
 - **587 unique company subdomains** on `*.avature.net`
