@@ -498,7 +498,7 @@ Starter pack had **27,202 unique job IDs** across 781,635 URLs. We discovered **
 
 ## What I Would Do With More Time
 
-2. **RSS feeds** — `/<portal>/SearchJobs/feed/` returns structured XML with job data, no scraping needed
-3. **Custom domain discovery** — companies like `emplois.bnc.ca`, `talent.ecb.europa.eu` use custom domains pointing to Avature. Reverse IP lookup on Avature's IP ranges would find dozens more
-4. **Better location/date extraction** — site-specific selectors for the top 20 companies would dramatically improve coverage
-5. **Playwright parallelism** — distribute across multiple machines for faster scraping of all 49k URLs
+1. **RSS feeds** — `/<portal>/SearchJobs/feed/` returns structured XML with job data, no scraping needed
+2. **Custom domain discovery** — companies like `emplois.bnc.ca`, `talent.ecb.europa.eu` use custom domains pointing to Avature. Reverse IP lookup on Avature's IP ranges would find dozens more
+3. **Better location/date extraction** — site-specific selectors for the top 20 companies would dramatically improve coverage
+4. **Playwright parallelism** — distribute across multiple machines for faster scraping of all 49k URLs
