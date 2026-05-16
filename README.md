@@ -123,8 +123,10 @@ The challenge was clear: find more companies, find more jobs per company, and ex
 The starter list had 587 companies. I wanted to find Avature subdomains that nobody else had discovered. I'd seen a NetworkChuck video about subdomain enumeration tools and decided to use the same recon techniques security researchers use.
 
 ### Tools Used
-- **subfinder** — queries 40+ passive DNS databases (Shodan, VirusTotal, Censys, SecurityTrails)
+- **subfinder** — queries 40+ passive DNS databases (Shodan, VirusTotal, Censys, SecurityTrails, Common Crawl and more)
 - **amass** — deeper passive recon, follows ASN/IP relationships
+- **crt.sh** — certificate transparency logs (was down during the run, subfinder partially covers this)
+- **Common Crawl** — already queried internally by subfinder
 
 ### Process
 ```bash
